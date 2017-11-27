@@ -3,28 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ScoreBoard : MonoBehaviour {
-
-    [SerializeField] ScoreManager manager;
+public class ScoreBoard : MonoBehaviour
+{
     int score;
+    Text scoreText;
 
-    Text scoreLabel;
-
-	// Use this for initialization
-	void Start () {
-
-        score = manager.score;
-
-        scoreLabel = GetComponentInChildren<Text>();
-        scoreLabel.text = score.ToString();
-
-	}
-
-    public void ScoreHit(int scorePerHit) {
-
-        score += scorePerHit;
-        scoreLabel.text = score.ToString();
-        manager.score = score;
+    // Use this for initialization
+    void Start()
+    {
+        scoreText = GetComponent<Text>();
+        scoreText.text = score.ToString();
     }
 
+    public void ScoreHit(int scoreIncrease)
+    {
+        score = score + scoreIncrease;
+        scoreText.text = score.ToString();
+    }
 }
