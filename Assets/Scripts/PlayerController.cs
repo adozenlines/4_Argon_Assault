@@ -21,6 +21,8 @@ public class PlayerController : MonoBehaviour {
     [SerializeField] float controlPitchFactor = -20f;
     [SerializeField] float controlRollFactor = -20f;
 
+    [SerializeField] ScoreManager manager;
+
     float xThrow, yThrow;
     bool isControlEnabled = true;
 
@@ -31,6 +33,9 @@ public class PlayerController : MonoBehaviour {
         {
             ProcessTranslation();
             ProcessRotation();
+
+            Debug.Log("Score: " + manager.score);
+
         }
     }
 
