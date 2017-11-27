@@ -1,10 +1,10 @@
 ﻿# Complete Unity Developer 2.0 - Section 4 - Argon Assault.
 
-This is the long-awaited sequel to the Complete Unity Developer - one of the most successful e-learning courses on the internet! Completely re-worked from scratch with brand-new projects, our latest teaching techniques,. You will benefit from the fact we have already taught over 250,000 students game development, many shipping commercial games as a result.
+This is the long-awaited sequel to the Complete Unity Developer - one of the most successful e-learning courses on the internet! Completely re-worked from scratch with brand-new projects and our latest teaching techniques. You will benefit from the fact we have already taught over 300,000 students game development, many shipping commercial games as a result.
 
 You're welcome to download, fork or do whatever else legal with all the files! The real value is in our huge, high-quality online tutorials that accompany this repo.
 
-## By In This Section
+## In This Section
 Instantiating At Runtime, Make Components Communicate, Create Detailed 2D UI, Use BitBucket, Using Virtual Controls, Craft C# Classes, Customise Particle Effects, Player Power Ups & More (REF: AA_CU2)
 
 ## How To Build / Compile
@@ -207,3 +207,64 @@ Arrange for game objects to add their own required components at run time, reduc
 **After watching (learning outcomes)…**
 
 Instantiate game objects at run time, parent them to in the hierarchy, and chose their position in world space.
+
+
+### 29 Add Simple Score UI ###
+**In this video (objectives)…**
+
+1. Add a UI text element to our game.
+2. Overview the new Canvas object.
+3. Add a score and customise the font.
+
+**After watching (learning outcomes)…**
+
+Add UI text elements to the game, and position and scale them. Also find and use free custom fonts.
+
+
+### 30 A ScoreBoard Class ###
+**In this video (objectives)…**
+
+1. Overview what a class is in programming.
+2. Add `ScoreBoard.cs` to our UI text.
+3. Write our first `public` method.
+
+
+**After watching (learning outcomes)…**
+
+Describe in basic terms what a class is in Object Oriented Programming (OOP).
+
+### 31 Introducing Encapsulation ###
+**In this video (objectives)…**
+
+1. Ensure our Canvas Scaler is set correctly.
+2. Use `FindObjectOfType()` to find the `scoreBoard`.
+3. Communicate between enemy and scoreboard.
+
+**After watching (learning outcomes)…**
+
+Separate a script into two, and arrange for them to find and and communicate with one another in a basic way.
+
+
+### 32 Back-pedalling With Version Control ###
+**In this video (objectives)…**
+
+1. Use `git stash` to safely discard our changes.
+2. Use branch and reset to discard multiple commits.
+
+**After watching (learning outcomes)…**
+
+Restore a project that has been tracked under version control to a previous commit safely.
+
+
+### 33 Iterating With foreach ###
+**In this video (objectives)…**
+
+1. Setup an input Button for "Fire"
+2. Expose an array of game objects to the Inspector.
+3. Automatically iterate over the array using `foreach`
+4. Give player ability to start and stop guns.
+
+
+**After watching (learning outcomes)…**
+
+Use a `foreach` loop to iterate over an entire collection automatically.
